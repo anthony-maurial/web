@@ -1,0 +1,58 @@
+/* App.css */
+
+/* Style général du body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+/* Container principal */
+div {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Boutons */
+button {
+  background-color: #ff7f50;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ff6347;
+}
+
+/* Input */
+input {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Message et compteur */
+h1 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+}
